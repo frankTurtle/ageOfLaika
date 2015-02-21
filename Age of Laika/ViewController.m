@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(id)sender {
+    
+    self.label.text = [NSString stringWithFormat: @"%li", ( [self.textField.text integerValue] * 7 )];
+}
 @end
